@@ -293,15 +293,14 @@ top_unique_sorted
 25. Completa lo que se indica  usando `pipes`. Selecciona las columnas `ip_id, country, package, size` de `cran` y muestra el resultado por pantalla usando `print`. No es necesario almacenar.
 
 ```{r}
-
-
+select(cran, ip_id, country, package, size) %>%
+  print()
 
 ```
 
 26. Añade una columna llamada `size_mb` que contenga el tamaño de cada descarga en megabytes.
 
 ```{r}
-
 
 
 ```
